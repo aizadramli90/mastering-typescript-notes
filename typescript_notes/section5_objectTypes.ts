@@ -162,7 +162,7 @@ const user: User = {
 }
 
 console.log(user.id);
-user.id = 444222;                   //Cannot assign to 'id' because it is a read-only property.ts(2540)
+//user.id = 444222;                   //Cannot assign to 'id' because it is a read-only property.ts(2540)
 
 /* -------------------------------------------------------------- */
 // 32. INTERSECTION TYPES
@@ -177,7 +177,7 @@ type Colorful = {
 
 type ColorfulCircle = Circle & Colorful;
 
-cosnt happyFace: ColorfulCircle = {
+const happyFace: ColorfulCircle = {
     radius: 4,
     color: "yellow"
 }
